@@ -8,3 +8,6 @@ class TestCreateBooking(object):
     @allure.description("create a booking from the payload and verify that booking id should not be null ")
     def test_create_booking_positive(self):
         pass
+
+
+    
