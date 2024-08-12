@@ -13,9 +13,11 @@
 - pip
 - pip install requests pytest pytest-html faker allure-pytest jsonschema
 - pip install pytest-xdist
-- 
+
 ### how to add the .gitignore file?
 
-copy the content ftom this to .gitignore file.
+copy the content from this to .gitignore file.
 https://www.toptal.com/developers/gitignore/api/pycharm+all
 
+### how to run the basic testcase with allure report
+pytest (path of the file) --alluredir=allure_result -s
