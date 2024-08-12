@@ -21,3 +21,6 @@ https://www.toptal.com/developers/gitignore/api/pycharm+all
 
 ### how to run the basic testcase with allure report
 pytest (path of the file) --alluredir=allure_result -s
+allure serve allure_result
+
+### dont push the env file to the github
